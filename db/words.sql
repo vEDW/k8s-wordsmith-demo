@@ -3,24 +3,24 @@ CREATE TABLE verbs (word TEXT NOT NULL);
 CREATE TABLE adjectives (word TEXT NOT NULL);
 
 INSERT INTO nouns(word) VALUES
-  ('cloud'),
-  ('elephant'),
+  ('Frieten'),
+  ('unicorn'),
   ('gø language'),
   ('laptøp'),
   ('cøntainer'),
   ('micrø-service'),
   ('turtle'),
-  ('whale'),
+  ('maatjes'),
   ('gøpher'),
   ('møby døck'),
   ('server'),
-  ('bicycle'),
+  ('fiets'),
   ('viking'),
-  ('mermaid'),
-  ('fjørd'),
+  ('fiets'),
+  ('bitterbal'),
   ('legø'),
-  ('flødebolle'),
-  ('smørrebrød');
+  ('pannekoek'),
+  ('Stroopwafel');
 
 INSERT INTO verbs(word) VALUES
   ('will drink'),
