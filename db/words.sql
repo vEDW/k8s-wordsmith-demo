@@ -3,24 +3,16 @@ CREATE TABLE verbs (word TEXT NOT NULL);
 CREATE TABLE adjectives (word TEXT NOT NULL);
 
 INSERT INTO nouns(word) VALUES
-  ('Frieten'),
-  ('unicorn'),
-  ('gø language'),
-  ('laptøp'),
-  ('cøntainer'),
-  ('micrø-service'),
-  ('turtle'),
-  ('maatjes'),
-  ('gøpher'),
-  ('møby døck'),
-  ('server'),
-  ('fiets'),
-  ('viking'),
-  ('fiets'),
-  ('bitterbal'),
-  ('legø'),
-  ('pannekoek'),
-  ('Stroopwafel');
+  ('Q-Music'),
+  ('HLN'),
+  ('Mobile Viking'),
+  ('De Morgen'),
+  ('Humo'),
+  ('VTM'),
+  ('Jim Mobile'),
+  ('tweakers'),
+  ('Goed Gevoel'),
+  ('TeVe Blad');
 
 INSERT INTO verbs(word) VALUES
   ('will drink'),
@@ -39,17 +31,11 @@ INSERT INTO verbs(word) VALUES
 INSERT INTO adjectives(word) VALUES
   ('the exquisite'),
   ('a pink'),
-  ('the røtten'),
-  ('a red'),
   ('the serverless'),
-  ('a brøken'),
   ('a shiny'),
   ('the pretty'),
   ('the impressive'),
   ('an awesøme'),
   ('the famøus'),
   ('a gigantic'),
-  ('the gløriøus'),
-  ('the nørdic'),
-  ('the welcøming'),
-  ('the deliciøus');
+  ('the gløriøus');
