@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: db
-        image: harbor.corp.local/vmug/db
+        image: harbor.corp.local/persgroep/db
         ports:
         - containerPort: 5432
           name: db
@@ -62,7 +62,7 @@ spec:
     spec:
       containers:
       - name: words
-        image: harbor.corp.local/vmug/words
+        image: harbor.corp.local/persgroep/words
         ports:
         - containerPort: 8080
           name: api
@@ -96,7 +96,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: harbor.corp.local/vmug/web
+        image: harbor.corp.local/persgroep/web
         ports:
         - containerPort: 80
           name: words-web
